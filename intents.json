@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "hey", "yoo"],
+      "responses": ["Nice to meet you. How can I help you?", "Good to see you again. Is there anything you need?", "Hi there, how can I assist you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting.", "Have a nice day!", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure."]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["What are you?", "Explain about yourself", "What can you do?", "Tell me about yourself"],
+      "responses": ["I'm Cassie, an AI language model developed by Team Cassie. I can assist with various tasks from answering questions to providing information.", "I'm a virtual assistant named Cassie, capable of understanding and generating human-like text. How can I assist you today?"]
+    },
+    {
+      "tag": "education",
+      "patterns": ["What subjects do you study?", "Tell me about your courses", "What can I learn here?", "what subjects can you teach me", "how can you help"],
+      "responses": ["We offer courses in Math, Science, History, and Literature.", "Our subjects include Math, Science, History, and Literature."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["Can you help me with math?", "I need math assistance", "Math problems", "Can you teach me math"],
+      "responses": ["Sure, I can help with math. What specifically do you need help with?", "I'm here to assist with math problems."]
+    },
+    {
+      "tag": "science",
+      "patterns": ["Tell me about science topics", "I want to learn science", "Science subjects"],
+      "responses": ["We cover various science topics including Physics, Chemistry, and Biology.", "Science subjects include Physics, Chemistry, and Biology."]
+    },
+    {
+      "tag": "history",
+      "patterns": ["What historical topics are covered?", "Tell me about history classes", "History subjects"],
+      "responses": ["We cover a wide range of historical topics such as Ancient Civilizations, World Wars, and Modern History.", "History subjects include Ancient Civilizations, World Wars, and Modern History."]
+    },
+    {
+      "tag": "literature",
+      "patterns": ["Can you recommend books?", "Tell me about literature courses", "Literature subjects"],
+      "responses": ["We offer literature courses that cover classic and contemporary works.", "Literature subjects include classic and contemporary works."]
+    },
+    {
+      "tag": "conversation",
+      "patterns": ["How's the weather?", "Tell me a joke", "How is the weather?", "Nice day"],
+      "responses": ["The weather is nice today!"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke.","give me a joke"],
+      "responses": ["Sure, here's a joke: Why was the math book sad? Because it had too many problems!"]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["What's your favorite movie?","tell me what movie you like"],
+      "responses": ["I enjoy many movies, but I don't have a favorite."]
+    }
+  ]
+}
